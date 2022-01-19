@@ -2,6 +2,7 @@ import pl.imjiad.kordowski.*;
 
 import java.time.*;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Main {
 
@@ -31,6 +32,6 @@ public class Main {
     }
 
     public static ArrayList<Klient> DiscountMap(ArrayList<Klient> klist){
-        
+        HashMap<String, String> mapa = new HashMap<String, String>();
     }
 }
